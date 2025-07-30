@@ -41,4 +41,4 @@ jobs:
         app-name: falaskapp-wb
         slot-name: production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
-        package: 
+        package: .
